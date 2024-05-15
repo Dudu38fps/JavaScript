@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <style>
+        body {
+            font: normal 15px arial;
+        }
+    </style>
+    <title>JS</title>
 </head>
 <body>
     <script>
         var nome = window.prompt('Qual é o seu nome?')
-        document.write('olá, ${nome} seu nome tem ${nome.lengh} letras')
-        document.write('Seu nome em minúsculo é ${nome.toLowerCase}')
-        document.write('Seu nome em maiúsculo é ${nome.toUpperCase}')
+        document.write(`olá, ${nome} seu nome tem ${nome.length} letras <br>`)  // Use crase (`) para interpolação de string.
+
+        document.write(`Seu nome em minúsculo é ${nome.toLowerCase()} <br>`) 
+
+        document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}`) 
 
     </script>
 </body>
