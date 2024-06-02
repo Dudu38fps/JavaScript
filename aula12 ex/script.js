@@ -1,6 +1,6 @@
 function carregar () {
     var msg = document.getElementById('msg')
-    var fot = document.getElementById('foto')
+    var foto = document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
 
@@ -8,12 +8,15 @@ function carregar () {
 
     if (hora >= 0 && hora < 12) {
         //Dia
-        img.src = 'imagens/manha.jpg'
+        foto.src = 'imagens/manha.jpg'
+        document.body.style.background = 'lightgreen'
     } else if (hora >= 12 && hora < 18) {
         //Tarde
-        img.src = 'imagens/tarde.jpg'
+        foto.src = 'imagens/tarde.jpg'
+        document.body.style.background = 'lightorange'
     } else {
         //Noite
-        img.src = 'imagens/noite.jpg'
+        foto.src = 'imagens/noite.jpg'
+        document.body.style.background = 'darkblue'
     }
 }
