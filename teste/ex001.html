@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo !</h1>
+    </header>
+    <main>
+        <form action="teste.php">
+            <p>
+                <label for="enome">Nome: </label>
+                <input type="text" name="nome" id="enome" required>
+            </p>
+            <p>
+                <label for="mas">Masculino </label>
+                <input type="radio" name="sexo" id="mas" checked required>
+                <label for="fem">Feminino</label>
+                <input type="radio" name="sexo" id="fem" required>
+
+            </p>
+            <p>
+                <label for="epeso">Peso:</label>
+                <input type="number" name="peso" id="epeso" min="10" required>
+            </p>
+
+            <p>
+                <p>Altura:</p>
+                <label for="ebaixo">1.40 á 1.65 m</label>
+                <input type="radio" name="altura" id="ebaixo" >
+                <label for="emedio">1.66 á 1.79 m</label>
+                <input type="radio" name="altura" id="emedio">
+                <label for="ealto">1.80 para cima </label>
+                <input type="radio" name="altura" id="ealto">
+
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar" onclick="Enviar()">
+            </p>
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
