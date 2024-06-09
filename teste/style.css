@@ -23,3 +23,14 @@ text-align: center;
    
 }
 
+div {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+}
+
+div:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
