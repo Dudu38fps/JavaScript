@@ -7,7 +7,7 @@ function Contar() {
 
     res.innerHTML = 'contando...'
 
-    if (pri.value.lengh == 0 || ult.value.lengh == 0 || pass.value.lengh == 0) {
+    if (pri.length == 0 || ult.length == 0 || pass.length == 0) {
         res.innerHTML = 'Impossível contar abestado !'
     } else {
 
@@ -15,12 +15,12 @@ function Contar() {
     var f = Number(ult)
     var p = Number(pass)
     if (i < f ) {
-    for (c = i; c <= f; c += p ) {
+    for (var c = i; c <= f; c += p ) {
         res.innerHTML += `${c} \u{1f449} `
     }
     
 } else {
-    for (c = i; c >= f; c -= p) {
+    for (var c = i; c >= f; c -= p) {
         res.innerHTML += `${c} \u{1f449}`
     }
     

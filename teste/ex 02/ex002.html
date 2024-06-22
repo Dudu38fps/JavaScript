@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 2</title>
+</head>
+<body>
+    <header>
+        <h1>Contagem</h1>
+    </header>
+    <main>
+        <div>
+        <p>
+            <label for="1passo">1° Passo:</label>
+            <input type="number" name="passo1" id="1passo" min="1" required>
+        </p>
+
+        <p>
+            <label for="2passo">2° Passo:</label>
+            <input type="number" name="passo2" id="2passo" min="1" required>
+        </p>
+
+        <p>
+            <label for="pular">Pular:</label>
+            <input type="number" name="epular" id="pular" min="1" max="10" required>
+        </p>
+
+        <p>
+            <input type="button" value="Resultado" onclick="Resultado()">
+        </p>
+    
+        </div>
+        <div id="res">
+            Contando...
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
