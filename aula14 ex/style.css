@@ -25,6 +25,10 @@ div {
     
 }
 
+div select {
+    width: 200px;
+}
+
 footer {
     color: white;
 }
