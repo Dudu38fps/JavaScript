@@ -6,6 +6,11 @@ let valores = []
 
 function Adicionar() {
     
-
+if (num.length == 0) {
+    window.alert('Digite um número')
+} else {
+    
+    var n = Number(num)
+}
     
 }
