@@ -1,14 +1,25 @@
+var nome = document.getElementById('nome')
+var tela = document.getElementById('tela')
+var res = document.getElementById('res')
+
+let nomes = []
+
 function Enviar() {
-    var nome = document.getElementById('nome')
-    var num = document.getElementById('numero').value
-    var tela = document.getElementById('tela')
-    var res = document.getElementById('res')
 
-    
+    let nomevalor = nome.value.trim()
 
-    var n = Number(num)
+    if (nomevalor !== '' ) {
+        nomes.push(nomevalor)
+        let item = document.createElement('option')
+        item.text = `O nome ${nomevalor} foi adicionado!`
+        tela.appendChild(item)
 
-    if (n == 0 && nome == 0) {
-        window.alert('Digite seu nome e escolha um número')
+        res.innerHTML = ''
+
+    } else {
+        alert('Digite um nome, por favor')
     }
+
+    nome.value = ''
+    nome.focus()
 }
