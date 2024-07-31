@@ -23,3 +23,20 @@ function Enviar() {
     nome.value = ''
     nome.focus()
 }
+
+function Verificar() {
+    if (nomes.length == 0) {
+        window.alert('Não há nada para verificar !')
+    } else {
+        res.innerHTML = ''
+        var total = nomes.length
+        var primeiro = nomes[0]
+        var ultimo = nomes[nomes.length -1]
+
+        res.innerHTML += `Os nomes cadastrados são : ${nomes.join(', ')} .<br> `
+        res.innerHTML += `O total de nomes cadastrados são ${total} .<br>`
+        res.innerHTML += `O primeiro nome cadastrado foi ${primeiro} .<br>`
+        res.innerHTML += `O Último nome cadastrado foi ${ultimo} .`
+
+    }
+}

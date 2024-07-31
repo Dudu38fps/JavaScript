@@ -46,7 +46,10 @@ section input[type="button"]:hover {
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.288);
 }
 
+section#res {
+    line-height: 30px;
+}
+
 select {
-    
-    height: 150px;
+    width: 250px;
 }
