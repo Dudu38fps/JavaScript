@@ -33,10 +33,10 @@ function Verificar() {
         var primeiro = nomes[0]
         var ultimo = nomes[nomes.length -1]
 
-        res.innerHTML += `Os nomes cadastrados são : ${nomes.join(', ')} .<br> `
-        res.innerHTML += `O total de nomes cadastrados são ${total} .<br>`
-        res.innerHTML += `O primeiro nome cadastrado foi ${primeiro} .<br>`
-        res.innerHTML += `O Último nome cadastrado foi ${ultimo} .`
+        res.innerHTML += `Os nomes cadastrados são : <strong>${nomes.join(', ')}</strong> .<br> `
+        res.innerHTML += `O total de nomes cadastrados são <strong>${total}</strong> .<br>`
+        res.innerHTML += `O primeiro nome cadastrado foi <strong>${primeiro}</strong> .<br>`
+        res.innerHTML += `O Último nome cadastrado foi <strong>${ultimo}</strong> .`
 
     }
 }
