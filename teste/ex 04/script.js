@@ -31,9 +31,6 @@ function Enviar() {
         mensagem += "<p> Número inválido, certifique que o número foi digitado no formato correto.</p>"
     }
 
-    if (validarEmail(email) == 0 || validarNumero(numero) == 0) {
-        mensagem = "<p> Digite o E-mail e o Número.</p>"
-    }
 
    res.innerHTML = mensagem
 }
