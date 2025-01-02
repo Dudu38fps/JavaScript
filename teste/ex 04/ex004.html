@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Validar E-mail</title>
+    
 </head>
 <body>
-    <h1>Validação de E-mail e Telefone</h1>
+    <header>
+        <h1>Validação de E-mail e Telefone</h1>
+    </header>
 
-    <div id="email">
+    <main id="email">
         <p>
         <label for="Email"></label>
         <input type="email" name="mail" id="Email" placeholder="E-mail">
@@ -18,13 +20,13 @@
         <label for="Numero"></label>
         <input type="tel" name="num" id="Numero" placeholder="Número">
         </p>
-    </div>
-
-    <div>
+        <p>
         <input type="submit" value="Enviar" onclick="Enviar()">
-    </div>
+        </p>
+        
+    </main>
 
-    <div id="res"></div>
+    <footer id="res"></footer>
 
     <script src="script.js"></script>
 </body>
