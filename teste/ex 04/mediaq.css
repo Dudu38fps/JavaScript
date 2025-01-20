@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 812px) and (max-width: 1112px) {
+    main{
+        float:right ;
+        width: 60%;
+        height: 100%;
+        
+        
+    }
+
+    main h1 {      
+        display: flex;
+        align-items: center; 
+        background-image: url(imagens/images.jpeg);
+        color: white;
+        float: left;
+        width: 40%;
+        height: 100%;
+        text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.274);
+
+        
+    }
+
+    main input {
+        font-size: 1.7em;
+        width: 40vw;
+    }
+
+    main input[type="submit"] {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1112px) {
+    main h1 {
+        background-image: url(imagens/images.jpeg);
+        color: white;
+    }
+
+    main input {
+        width : 50vw;
+        font-size: 1.7em;
+    }
+
+    main input[type="submit"] {
+        width: 30vw;
+
+}
+
+}

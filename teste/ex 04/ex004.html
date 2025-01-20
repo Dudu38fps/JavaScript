@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mediaq.css">
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <header>
-        <h1>Validação de E-mail e Telefone</h1>
-    </header>
 
     <main id="email">
+
+        <h1>Validação de E-mail e Telefone</h1>
         <p>
         <label for="Email"></label>
         <input type="email" name="mail" id="Email" placeholder="E-mail">
@@ -23,10 +23,12 @@
         <p>
         <input type="submit" value="Enviar" onclick="Enviar()">
         </p>
-        
+        <p>
+            <div id="res"></div>
+        </p>
     </main>
 
-    <footer id="res"></footer>
+    
 
     <script src="script.js"></script>
 </body>
