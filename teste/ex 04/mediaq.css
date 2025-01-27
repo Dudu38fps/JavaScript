@@ -2,9 +2,11 @@
 
 @media screen and (min-width: 812px) and (max-width: 1112px) {
     main{
+        background-image: url(imagens/download.jpeg);
         float:right ;
         width: 60%;
         height: 100%;
+        border: none;
         
         
     }
@@ -33,14 +35,20 @@
 }
 
 @media screen and (min-width: 1112px) {
+    
     main h1 {
         background-image: url(imagens/images.jpeg);
         color: white;
     }
 
+    main {
+        background-image:url(imagens/download.jpeg) ;
+    }
+
     main input {
         width : 50vw;
         font-size: 1.7em;
+        
     }
 
     main input[type="submit"] {
