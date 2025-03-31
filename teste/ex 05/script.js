@@ -20,9 +20,7 @@ function BuscarProduto() {
         let produto = data.produtos.find(p => p.nome.toUpperCase() === input)
 
         if(produto) {
-            Resultado.innerHTML = 'Produto Encontrado:'
-            <p><strong>Nome:</strong> ${produto.nome}</p>
-            <p><strong>Descrição:</strong> ${produto.descricao}</p>
+            Resultado.innerHTML = 'Produto encontrado'
         } else {
             Resultado.innerHTML = 'Produto não encontrado'
         }
