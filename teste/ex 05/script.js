@@ -17,10 +17,14 @@ function BuscarProduto() {
     fetch ("produtos.json")
     .then(Response => Response.json())
     .then(data => {
-        let produto = data.produtos.find(p => p.nome.toUpperCase() === input)
+        let produto = data.find(p => p.nome.toUpperCase() === input)
 
         if(produto) {
-            Resultado.innerHTML = 'Produto encontrado'
+            Resultado.innerHTML = 
+             `Produto encontrado! <br>
+              Nome:${produto.nome} <br>
+              Descrição:${produto["Descrição"]}`;
+            
         } else {
             Resultado.innerHTML = 'Produto não encontrado'
         }
