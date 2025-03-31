@@ -1,0 +1,19 @@
+[
+    {
+        "nome": "Camisa Básica",
+        "Descrição": "Camisa básica sem estampa."
+    },
+    {
+        "nome": "Calça sarja",
+        "Descrição": "Calça confortável e moderna."
+    },
+    {
+        "nome": "Tênis Básico",
+        "Descrição": "Tênis básico e simples"
+
+    },
+    {
+        "nome":"Relógio de Pulso",
+        "Descrição":"Relógio moderno e robusto"
+    }
+]
