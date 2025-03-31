@@ -1,3 +1,8 @@
+function Validar(input){
+    let regexnome = /^[A-Za-zÀ-Ö0-ö\s]+$/
+    return regexnome.test(input)
+}
+
 
 function BuscarProduto() {
     let input = document.getElementById("NomeP").value.trim().toUpperCase()
@@ -5,11 +10,6 @@ function BuscarProduto() {
     if (!Validar(input)) {
         Resultado.innerHTML = "Nome inválido!"
         return;
-    }
-
-    function Validar(input){
-        let regexnome = /^[A-Za-zÀ-Ö0-ö\s]+$/
-        return regexnome.test(input)
     }
 
     Resultado.innerHTML = "Buscando..." 
