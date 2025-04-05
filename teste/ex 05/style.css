@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 90%;
+    border-radius:0px 0px 10px 10px ;
+    
+}
+
+ h1 {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    background-color: midnightblue;
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div input {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.2em;
+    float: left;
+    
+    
+}
+
+div button {
+    font-size: 1.1em;
+}
+
+div#Resultado {
+    float: right;
+    padding: 10px;
+    margin: 15px;
+}
