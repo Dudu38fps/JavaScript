@@ -7,6 +7,9 @@ function Validar(input){
 function BuscarProduto() {
     let input = document.getElementById("NomeP").value.trim().toUpperCase()
     let Resultado =document.getElementById("Resultado")
+
+    Resultado.style.display = "Block"
+
     if (!Validar(input)) {
         Resultado.innerHTML = "Nome inválido!"
         return;
@@ -24,6 +27,7 @@ function BuscarProduto() {
              `Produto encontrado! <br>
               Nome:${produto.nome} <br>
               Descrição:${produto["Descrição"]}`;
+              
             
         } else {
             Resultado.innerHTML = 'Produto não encontrado'

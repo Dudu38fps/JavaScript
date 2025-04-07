@@ -4,38 +4,44 @@
     padding: 0%;
     margin: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
-div {
+body {
+    background-color: rgb(18, 18, 66);
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.151);
+   
+}
+
+div {
+    
+    background-color: rgba(0, 0, 0, 0.329);
     width: 90%;
-    border-radius:0px 0px 10px 10px ;
+    
+    border-radius:10px ;
     
 }
 
  h1 {
-    width: 90%;
+    
     padding: 5px;
     text-align: center;
-    margin: auto;
     background-color: midnightblue;
     color: aliceblue;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px ;
 }
 
 div input {
     text-align: center;
     margin: 15px;
     font-size: 1.2em;
-    float: left;
-    
-    
+   
 }
 
 div button {
@@ -43,7 +49,9 @@ div button {
 }
 
 div#Resultado {
-    float: right;
     padding: 10px;
     margin: 15px;
+    color: white;
+    line-height: 30px;
+    
 }
