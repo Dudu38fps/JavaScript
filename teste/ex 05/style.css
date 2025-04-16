@@ -47,6 +47,13 @@ div input {
     color: white;
 }
 
+div input:focus-within {
+    background-color: black;
+    transition: .3s;
+    border: 2px solid white;
+    
+}
+
 
 div button {
     font-size: 1.1em;
@@ -54,6 +61,7 @@ div button {
     border-radius: 10px;
     border: none;
     box-sizing: border-box;
+    cursor: pointer;
 
 
 
@@ -62,7 +70,8 @@ div button {
 div button:hover {
     background-color: black;
     color: midnightblue;
-    border: 2px solid rgb(255, 255, 255);
+    transition: .3s;
+    
 }
 
 div#Resultado {
